@@ -7,3 +7,7 @@ node_modules
 .DS_Store
 .env
 npm-debug.log
+
+# built files
+public/scripts/**/*
+!public/scripts/.gitkeep
