@@ -12,7 +12,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    // Prevent mangling of UMD boilerplate when bundling (without optimization)
+    // Apply `noParse` to Tangram to prevent mangling of UMD boilerplate
     noParse: /tangram\/dist\/tangram/,
     rules: [{
       test: /\.js&/,
