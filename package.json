@@ -13,11 +13,14 @@
   "license": "MIT",
   "dependencies": {
     "leaflet": "^1.0.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "tangram": "https://github.com/tangrams/tangram.git#v0.12.5"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^0.28.1",
     "http-server": "^0.10.0",

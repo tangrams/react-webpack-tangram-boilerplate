@@ -15,11 +15,14 @@ module.exports = {
     // Apply `noParse` to Tangram to prevent mangling of UMD boilerplate
     noParse: /tangram\/dist\/tangram/,
     rules: [{
-      test: /\.js&/,
+      test: /\.jsx?$/,
       include: path.resolve(__dirname, 'src'),
       use: [{
         loader: 'babel-loader',
         options: {
+          plugins: [
+            ['transform-react-jsx']
+          ],
           presets: [
             ['es2015', { modules: false }]
           ]
