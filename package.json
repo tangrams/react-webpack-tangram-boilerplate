@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --debug --progress",
-    "build-production": "NODE_ENV=production webpack",
+    "build-production": "webpack -p",
     "start": "http-server"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "leaflet": "^1.0.3",
-    "tangram": "https://github.com/tangrams/tangram.git#v0.12.4"
+    "tangram": "https://github.com/tangrams/tangram.git#v0.12.5"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
