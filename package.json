@@ -15,7 +15,7 @@
     "leaflet": "^1.0.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "tangram": "https://github.com/tangrams/tangram.git#v0.12.5"
+    "tangram": "^0.13.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
