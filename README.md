@@ -5,6 +5,7 @@ This is a minimal boilerplate for using [Tangram](https://github.com/tangrams/ta
 To try this out, clone this repository to your local environment, then run:
 
 ```sh
+npm install
 npm run build
 ```
 
