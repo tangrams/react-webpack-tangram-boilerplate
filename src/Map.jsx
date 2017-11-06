@@ -35,7 +35,10 @@ export default class Map extends React.Component {
     const map = L.map(this.mapEl);
     const layer = Tangram.leafletLayer({
       scene: {
-        'import': 'https://mapzen.com/carto/bubble-wrap-style/7/bubble-wrap-style.zip',
+        import: [
+          'https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-style.zip',
+          'https://mapzen.com/carto/bubble-wrap-style/8/themes/label-10.zip'
+        ],
         // TODO: get your own API key at https://mapzen.com/dashboard/. It's free!
         'global': { 'sdk_mapzen_api_key': 'mapzen-8SeUVxf' }
       },
