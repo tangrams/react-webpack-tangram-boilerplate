@@ -1,6 +1,6 @@
 # Webpack / Babel / React / Tangram boilerplate
 
-This is a minimal boilerplate for using [Tangram](https://github.com/tangrams/tangram) in a bundled JavaScript application with Webpack. Webpack is very commonly used with Babel and React, and this boilerplate also includes these.
+This is a minimal boilerplate for using [Tangram](https://github.com/tangrams/tangram) in a bundled JavaScript application with Webpack. Webpack is very commonly used with Babel and React, and this boilerplate also includes these. (Compare: https://github.com/tangrams/webpack-tangram-boilerplate)
 
 To try this out, clone this repository to your local environment, then run:
 
