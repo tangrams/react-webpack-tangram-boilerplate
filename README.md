@@ -40,3 +40,7 @@ npm run build-production
 - For versions between v0.12.0 to v0.12.4: when minifying, the `modules.exports` check will also be subjected to compression with UglifyJS, causing it to fail when run in the browser. In order to minimize properly we must send in an instance of UglifyJS with the option `compression: { comparisons: false }` to prevent the check from being destroyed. Since this is a custom instance of UglifyJS it is not possible to run the short-hand optimize/minimize command with `webpack -p`. This issue is [fixed in v0.12.5](https://github.com/tangrams/tangram/issues/559#issuecomment-304891020).
 - It is not possible to bundle Tangram from source as it is built with a custom plugin to Browserify and requires Node's `fs` module.
 - Tangram is available via `npm` starting from v0.13.0.
+
+### For more information
+
+See https://github.com/tangrams/tangram-play/wiki/Advanced-Tangram-for-front-end-engineers:-bundlers,-frameworks,-etc
