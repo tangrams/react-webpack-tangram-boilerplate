@@ -13,7 +13,7 @@ module.exports = {
   },
   module: {
     // Apply `noParse` to Tangram to prevent mangling of UMD boilerplate
-    noParse: /tangram\/dist\/tangram/,
+    noParse: [/tangram\/dist\/tangram/, /tangram\\dist\\tangram/],
     rules: [{
       test: /\.jsx?$/,
       include: path.resolve(__dirname, 'src'),
