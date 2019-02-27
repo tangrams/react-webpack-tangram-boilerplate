@@ -4,29 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --debug --progress",
-    "build-production": "webpack -p",
-    "start": "http-server"
+    "start": "npm run build && npm run serve",
+    "build": "webpack --mode development --progress",
+    "build-production": "webpack --mode production --progress",
+    "serve": "http-server"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "leaflet": "^1.0.3",
+    "leaflet": "^1.4.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-leaflet": "^1.9.1",
-    "tangram": "^0.15.4"
+    "tangram": "^0.18.0"
   },
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "babel-loader": "^8.0.5",
     "css-loader": "^0.28.1",
     "http-server": "^0.10.0",
     "style-loader": "^0.17.0",
-    "url-loader": "^0.5.8",
-    "webpack": "^2.5.1"
+    "url-loader": "^0.5.9",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }

@@ -3,13 +3,7 @@ import React from 'react';
 import { Map } from 'react-leaflet';
 
 // -- Import Tangram --
-
-// You can import the main library, but it takes forever to bundle, because
-// it is already minified.
-// import Tangram from 'tangram';
-
-// This is faster, and will be minified anyway in production
-import Tangram from 'tangram/dist/tangram.debug';
+import Tangram from 'tangram';
 
 // -- WEBPACK: Load styles --
 import 'leaflet/dist/leaflet.css';

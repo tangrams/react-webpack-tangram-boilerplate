@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+// const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -12,19 +12,14 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    // Apply `noParse` to Tangram to prevent mangling of UMD boilerplate
-    noParse: [/tangram\/dist\/tangram/, /tangram\\dist\\tangram/],
     rules: [{
-      test: /\.jsx?$/,
-      include: path.resolve(__dirname, 'src'),
+      test: /\.(js|jsx)$/,
+      exclude: /node_modules/,
       use: [{
         loader: 'babel-loader',
         options: {
           plugins: [
             ['transform-react-jsx']
-          ],
-          presets: [
-            ['env', { modules: false }]
           ]
         }
       }]
@@ -38,5 +33,5 @@ module.exports = {
       test: /\.png$/,
       use: 'url-loader'
     }]
-  },
+  }
 };
