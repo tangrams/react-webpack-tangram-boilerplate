@@ -19,6 +19,9 @@ module.exports = {
         options: {
           plugins: [
             ['@babel/transform-react-jsx']
+          ],
+          presets: [
+            ['@babel/env', { modules: false }]
           ]
         }
       }]
