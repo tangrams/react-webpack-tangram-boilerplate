@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run build && npm run serve",
     "build": "webpack --mode development --progress",
+    "watch": "webpack --mode development --progress --watch",
     "build-production": "webpack --mode production --progress",
     "serve": "http-server"
   },
@@ -16,7 +17,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-leaflet": "^2.2.1",
-    "tangram": "^0.18.0"
+    "tangram": "file:../tangram"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
