@@ -1,4 +1,3 @@
-// const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -19,7 +18,7 @@ module.exports = {
         loader: 'babel-loader',
         options: {
           plugins: [
-            ['transform-react-jsx']
+            ['@babel/transform-react-jsx']
           ]
         }
       }]

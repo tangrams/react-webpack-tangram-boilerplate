@@ -13,9 +13,9 @@
   "license": "MIT",
   "dependencies": {
     "leaflet": "^1.4.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-leaflet": "^1.9.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-leaflet": "^2.2.1",
     "tangram": "^0.18.0"
   },
   "devDependencies": {
