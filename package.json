@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run build && npm run serve",
     "build": "webpack --mode development --progress",
+    "watch": "webpack --mode development --progress --watch",
     "build-production": "webpack --mode production --progress",
     "serve": "http-server"
   },
@@ -15,8 +16,7 @@
     "leaflet": "^1.4.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-leaflet": "^2.2.1",
-    "tangram": "^0.18.0"
+    "react-leaflet": "^2.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
@@ -26,6 +26,7 @@
     "css-loader": "^0.28.1",
     "http-server": "^0.10.0",
     "style-loader": "^0.17.0",
+    "tangram": "^0.18.0",
     "url-loader": "^0.5.9",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
