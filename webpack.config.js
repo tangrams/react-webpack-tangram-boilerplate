@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     entry: './main.js'
   },
+  devtool:'source-map',
   output: {
     path: path.resolve(__dirname, 'public/scripts'),
     publicPath: 'scripts/',
